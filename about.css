@@ -86,8 +86,7 @@ nav[role="nav"] ul li a{
 
 /*Body*/
 #body{
-    margin-top:100px;    
-    align-content: center;
+    margin-top: 20vh;
     text-align: center;
 }
 .gdsc-hau{
