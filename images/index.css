@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Product Sans', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #f1f3f4;
+    color: #fff;
+}
+/*Navigation Bar*/
+#header{
+    position: fixed;
+    top: 0;
+    background: #fff;
+    width: 100%;
+}
+.container{
+    padding: 0px 1%;
+    border-bottom: 1px solid #bdc1c6;
+    box-shadow: 1px 1px 2px #bdc1c6;
+}
+.logo{
+    margin: 10px 0px;
+    width: 60px;
+    height: auto;
+    padding-right: 10px;
+}
+.logo2{
+    width: 50px;
+    padding-top: 4px;
+}
+#page a{
+    padding-right: 60px;
+    text-decoration: none;
+    color: #666a6f;
+    font-size: 22px;
+    margin-bottom: 3px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav[role="logo"] #page{
+    color: #666a6f;
+}
+nav[role="nav"] ul li{
+    display: inline-block;
+    width: 75px;
+    text-align: center;
+    list-style: none;
+    margin: 18px 0px;
+}
+nav[role="nav"] ul li a{
+    color: #666a6f;
+    text-decoration: none;
+    font-size: 14px;
+}
+.nav-right {
+    float: right;
+}
+.nav-right:hover {
+    background-color: #e8f0fe;
+    color: #e8f0fe;
+    border-radius: 10px;
+    border-color: #fff;
+}
+.home{
+    color: #202124;
+    padding-bottom: 18px;
+    border-bottom: 3px solid #202124;   
+}
+.about:hover{
+    color: #5f6368;
+    padding-bottom: 18px;
+    border-bottom: 3px solid #5f6368;   
+}
+.contact:hover{
+    color: #5f6368;
+    padding-bottom: 18px;
+    border-bottom: 3px solid #5f6368;   
+}
+
+/*Body*/
+.title a{
+    text-decoration: none;
+    color: #1a73e8;
+}
+
+.content{
+    color: #202124;
+    font-size: 18px;
+    margin:20px 0px;
+
+}
+#body iframe{
+    float: right;
+    flex-wrap: wrap;
+    width: calc(1.8*50vh);
+    height: 50vh;
+    margin-bottom: 20px;
+}
+#body2{
+    padding-top: 20px;
+    background: #fff;
+}
+.title2{
+    font-size:40px; 
+    color: #202124;
+}
+#body2 p{
+    margin: 10px 30px;
+}
+#body2 iframe{
+    margin: 0;
+    width: 100%;
+    height: 80vh;
+}
+
+
+/*width sizing*/
+@media all and (min-width: 50px)   {  #page a  { font-size:16px;  }.title a  { font-size:25px;  }.content{margin-right: 0%;}#body iframe{padding-left: 0px;width:100%;}#body{padding-bottom: 0; margin: 130px 5%; }}
+@media all and (min-width: 100px)  {  #page a  { font-size:16px;  }.title a  { font-size:25px;  }.content{margin-right: 0%;}#body iframe{padding-left: 0px;width:100%;}#body{padding-bottom: 0; margin: 130px 5%; }}
+@media all and (min-width: 200px)  {  #page a  { font-size:16px;  }.title a  { font-size:25px;  }.content{margin-right: 0%;}#body iframe{padding-left: 0px;width:100%;}#body{padding-bottom: 0; margin: 130px 5%; }}
+@media all and (min-width: 300px)  {  #page a  { font-size:18px;  }.title a  { font-size:25px;  }.content{margin-right: 0%;}#body iframe{padding-left: 0px;width:100%;}#body{padding-bottom: 0; margin: 130px 5%; }}
+@media all and (min-width: 400px)  {  #page a  { font-size:18px;  }.title a  { font-size:25px;  }.content{margin-right: 0%;}#body iframe{padding-left: 0px;width:100%;}#body{padding-bottom: 0; margin: 130px 5%; }}
+@media all and (min-width: 500px)  {  #page a  { font-size:20px;  }.title a  { font-size:30px;  }.content{margin-right: 0%;}#body iframe{padding-left: 0px;width:100%;}#body{padding-bottom: 0; margin: 130px 5%; }}
+@media all and (min-width: 600px)  {  #page a  { font-size:22px;  }.title a  { font-size:35px;  }.content{margin-right: 0%;}#body iframe{padding-left: 0px;width:100%;}#body{padding-bottom: 0; margin: 130px 5%; }}
+@media all and (min-width: 700px)  {  #page a  { font-size:22px;  }.title a  { font-size:40px;  }.content{margin-right: 0%;}#body iframe{padding-left: 0px;width:100%;}#body{padding-bottom: 0; margin: 130px 5%; }}
+@media all and (min-width: 800px)  {  #page a  { font-size:22px;  }.title a  { font-size:40px;  }.content{margin-right: 0%;}#body iframe{padding-left: 0px;width:100%;}#body{padding-bottom: 0; margin: 100px 5%; }}
+@media all and (min-width: 900px)  {  #page a  { font-size:22px;  }.title a  { font-size:40px;  }.content{margin-right: 25%;}#body iframe{padding-left: 0px;width:100%;}#body{padding-bottom: 0; margin: 100px 5%; }}
+@media all and (min-width: 1000px) {  #page a  { font-size:22px;  }.title a  { font-size:48px;  }.content{margin-right: 25%;}#body iframe{padding-left: 20px;width:45%;}#body{padding-bottom: 30vh; margin: 20vh 5%; }}
+@media all and (min-width: 1100px) {  #page a  { font-size:22px;  }.title a  { font-size:48px;  }.content{margin-right: 25%;}#body iframe{padding-left: 20px;width:45%;}#body{padding-bottom: 30vh; margin: 20vh 5%; }}
+@media all and (min-width: 1200px) {  #page a  { font-size:22px;  }.title a  { font-size:48px;  }.content{margin-right: 25%;}#body iframe{padding-left: 20px;width:45%;}#body{padding-bottom: 30vh; margin: 20vh 5%; }}
+@media all and (min-width: 1300px) {  #page a  { font-size:22px;  }.title a  { font-size:48px;  }.content{margin-right: 50%;}#body iframe{padding-left: 20px;width:45%;}#body{padding-bottom: 40vh; margin: 20vh 5%; }}
+@media all and (min-width: 1400px) {  #page a  { font-size:22px;  }.title a  { font-size:48px;  }.content{margin-right: 50%;}#body iframe{padding-left: 20px;width:45%;}#body{padding-bottom: 40vh; margin: 20vh 5%; }}
+@media all and (min-width: 1500px) {  #page a  { font-size:22px;  }.title a  { font-size:48px;  }.content{margin-right: 50%;}#body iframe{padding-left: 20px;width:45%;}#body{padding-bottom: 40vh; margin: 20vh 5%; }}
+@media all and (min-width: 1600px) {  #page a  { font-size:22px;  }.title a  { font-size:48px;  }.content{margin-right: 50%;}#body iframe{padding-left: 20px;width:45%;}#body{padding-bottom: 45vh; margin: 20vh 5%; }}
+@media all and (min-width: 1700px) {  #page a  { font-size:22px;  }.title a  { font-size:48px;  }.content{margin-right: 50%;}#body iframe{padding-left: 20px;width:45%;}#body{padding-bottom: 45vh; margin: 20vh 5%; }}
+@media all and (min-width: 1800px) {  #page a  { font-size:22px;  }.title a  { font-size:48px;  }.content{margin-right: 50%;}#body iframe{padding-left: 20px;width:45%;}#body{padding-bottom: 45vh; margin: 20vh 5%; }}
+

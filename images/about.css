@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Product Sans', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #f1f3f4;
+    color: #fff;
+}
+
+
+/*Navigation Bar*/
+#header{
+    position: fixed;
+    top: 0;
+    background: #fff;
+    width: 100%;
+}
+.container{
+    padding: 0px 1%;
+    border-bottom: 1px solid #bdc1c6;
+    box-shadow: 1px 1px 2px #bdc1c6;
+}
+.logo{
+    margin: 10px 0px;
+    width: 60px;
+    height: auto;
+    padding-right: 10px;
+}
+.logo2{
+    width: 50px;
+    padding-top: 4px;
+}
+#page a{
+    padding-right: 60px;
+    text-decoration: none;
+    color: #666a6f;
+    font-size: 22px;
+    margin-bottom: 3px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav[role="logo"] #page{
+    color: #666a6f;
+}
+nav[role="nav"] ul li{
+    display: inline-block;
+    width: 75px;
+    text-align: center;
+    list-style: none;
+    margin: 18px 0px;
+}
+nav[role="nav"] ul li a{
+    color: #666a6f;
+    text-decoration: none;
+    font-size: 14px;
+}
+.nav-right {
+    float: right;
+}
+.nav-right:hover {
+    background-color: #e8f0fe;
+    color: #e8f0fe;
+    border-radius: 10px;
+    border-color: #fff;
+}
+.home:hover{
+    color: #5f6368;
+    padding-bottom: 18px;
+    border-bottom: 3px solid #5f6368;   
+}
+.about{
+    color: #202124;
+    padding-bottom: 18px;
+    border-bottom: 3px solid #202124;   
+}
+.contact:hover{
+    color: #5f6368;
+    padding-bottom: 18px;
+    border-bottom: 3px solid #5f6368;   
+}
+
+/*Body*/
+#body{
+    margin-top:100px;    
+    align-content: center;
+    text-align: center;
+}
+.gdsc-hau{
+    padding:20px;
+}
+.logo3{
+    clip-path: circle(50px at center);
+    height: 100px;
+}
+.title a{
+    padding-top:20px;  
+    text-decoration: none;
+    color: #1a73e8;
+    font-size: 30px;
+}
+.content{
+    color: #202124;
+    font-size: 18px;
+    border: 2px solid #dadce0;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    text-align: left;   
+}
+
+/*#page a sizing*/
+@media all and (min-width: 50px)   {  #page a  { font-size:16px;  }.section1{display: inline; margin:20px 1%;}}
+@media all and (min-width: 100px)  {  #page a  { font-size:16px;  }.section1{display: inline; margin:20px 1%;}}
+@media all and (min-width: 200px)  {  #page a  { font-size:16px;  }.section1{display: inline; margin:20px 1%;}}
+@media all and (min-width: 300px)  {  #page a  { font-size:18px;  }.section1{display: inline; margin:20px 1%;}}
+@media all and (min-width: 400px)  {  #page a  { font-size:18px;  }.section1{display: inline; margin:20px 1%;}}
+@media all and (min-width: 500px)  {  #page a  { font-size:20px;  }.section1{display: flex; margin:20px 5%;}}
+@media all and (min-width: 600px)  {  #page a  { font-size:22px;  }.section1{display: flex; margin:20px 10%;}}
+@media all and (min-width: 700px)  {  #page a  { font-size:22px;  }.section1{display: flex; margin:20px 10%;}}
+@media all and (min-width: 800px)  {  #page a  { font-size:22px;  }.section1{display: flex; margin:20px 10%;}}
+@media all and (min-width: 900px)  {  #page a  { font-size:22px;  }.section1{display: flex; margin:20px 10%;}}
+@media all and (min-width: 1000px) {  #page a  { font-size:22px;  }.section1{display: flex; margin:20px 20%;}}
+@media all and (min-width: 1100px) {  #page a  { font-size:22px;  }.section1{display: flex; margin:20px 20%;}}
+@media all and (min-width: 1200px) {  #page a  { font-size:22px;  }.section1{display: flex; margin:20px 20%;}}
+@media all and (min-width: 1300px) {  #page a  { font-size:22px;  }.section1{display: flex; margin:20px 30%;}}
+@media all and (min-width: 1400px) {  #page a  { font-size:22px;  }.section1{display: flex; margin:20px 30%;}}
+@media all and (min-width: 1500px) {  #page a  { font-size:22px;  }.section1{display: flex; margin:20px 30%;}}
+@media all and (min-width: 1500px) {  #page a  { font-size:22px;  }.section1{display: flex; margin:20px 30%;}}
+@media all and (min-width: 1600px) {  #page a  { font-size:22px;  }.section1{display: flex; margin:20px 30%;}}
+@media all and (min-width: 1700px) {  #page a  { font-size:22px;  }.section1{display: flex; margin:20px 30%;}}
+
