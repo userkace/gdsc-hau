@@ -10,7 +10,7 @@ body{
 }
 /*Navigation Bar*/
 #header{
-    position: fixed;
+    position: sticky;   
     top: 0;
     background: #fff;
     width: 100%;
@@ -115,7 +115,8 @@ nav[role="nav"] ul li a{
 #body2 iframe{
     margin: 0;
     width: 100%;
-    height: 80vh;
+    height: 75vh;
+    flex-wrap: wrap;
 }
 
 
