@@ -109,6 +109,7 @@ nav[role="nav"] ul li a{
 }
 .content{
     color: #202124;
+    background-color: #ffffff;
     font-size: 18px;
     border: 2px solid #dadce0;
     border-radius: 10px;
@@ -128,6 +129,7 @@ nav[role="nav"] ul li a{
 }
 .content-logo{
     color: #202124;
+    background-color: #ffffff;
     font-size: 18px;
     border: 2px solid #dadce0;
     border-radius: 10px;

@@ -90,6 +90,10 @@ nav[role="nav"] ul li a{
     margin-top: 20px;
     text-align: center;
 }
+#form{
+    margin-top: 20px;
+
+}
 .gdsc-hau{
     padding-bottom: 20px;
 }
@@ -122,6 +126,7 @@ nav[role="nav"] ul li a{
     padding: 10px;
     gap: 1em;
     font-size: 16px;
+    background-color: #ffffff;
 }
 .social-list .item{
     scroll-snap-align: center;
@@ -130,11 +135,67 @@ nav[role="nav"] ul li a{
     color: #111;
     width: 4em;
     display: inline;
-    
-
 }
 .social {
     width: 4em;
+}
+#contact-form{
+    align-items: center;
+    align-content: center;
+    max-width: fit-content;
+}
+.form-title{
+    padding-bottom: 10px;
+    color: #202124;
+    font-weight: 100;
+}
+input{
+    border-radius: 10px;
+    border: solid #dadce0 2px;
+    min-width: 12.5em;
+    max-width: 12.5em;
+    padding: 5px;
+    outline: none !important;
+}
+input .email:invalid{
+    border-color: #ea4335;
+}
+textarea{
+    border-radius: 10px;
+    border: solid #dadce0 2px;
+    min-height: 3em;
+    padding: 5px;
+    min-width: 18.3em;
+    max-width: 18.3em;
+    outline: none !important;
+}
+.form-input:focus{
+    border-color: #551a8b;
+}  
+.form-btn{
+    border-radius: 10px;
+    border: solid #dadce0 2px;
+    min-height: 3em;
+    max-height: 3em;
+    width: 3em;
+}
+.form-btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
+.input-wrapper{
+    align-items: center;
+    align-content: center;
+    padding-bottom: 5px;
+}
+button ion-icon{
+    font-size: 1em;
+    color: #202124;
+}
+ion-icon{
+    color: #551a8b;
+    margin: 10px;
+    font-size: 2em;
 }
 
 
