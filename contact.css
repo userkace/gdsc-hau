@@ -117,8 +117,7 @@ nav[role="nav"] ul li a{
     display: flex;
 }
 .social-list{
-    scroll-snap-type: x mandatory;
-    overflow: scroll;
+    scrollbar-width: none;
     justify-content: center;
     display: flex;
     border: 2px solid #dadce0;
@@ -128,13 +127,12 @@ nav[role="nav"] ul li a{
     font-size: 16px;
     background-color: #ffffff;
 }
-.social-list .item{
-    scroll-snap-align: center;
+.social-list .item{ 
     align-self: center;
     align-content: center;
     color: #111;
     width: 4em;
-    display: inline;
+
 }
 .social {
     width: 4em;
